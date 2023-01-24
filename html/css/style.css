@@ -1,0 +1,75 @@
+* {
+  margin:0; 
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing:border-box; 
+}
+header{
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: white;
+  color:black;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+header h1{
+  margin: 0;
+  padding-left: 50px;
+}
+header h1 img{
+  width:80%;
+  height:auto;
+  padding:25px 0 0 20px;
+  
+}
+
+header ul{
+  list-style: none; 
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+nav li{
+  margin-left: 25px;
+  display: inline;
+  float: right;
+  border-bottom: none;
+  margin-right: 25px;
+}
+.menu a{
+  color:black;
+  font-size: larger;
+}
+#top_photo img{
+  max-width:100%;
+  height:auto;
+}
+#about,#works{
+  margin:25px 0 25px 150px;
+}
+
+#about_photo img{
+  width:20%;
+  height:auto;
+}
+.about_me{
+  display: flex;
+}
+#profile_photo img{
+  width:50%;
+  height: auto;
+}
+#profile_memo img{
+  margin-right: 300px;
+}
+
+#works_photo img{
+  width:15%;
+  height:auto;
+}
